@@ -1,0 +1,19 @@
+.best {
+    background-color: #e67a00;
+    text-align: center;
+    width: 6%;
+    height: 24px;
+    position: relative;
+    line-height: 24px;
+    padding-right: 7px;
+}
+.best:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 12px solid white;
+    border-top: 24px solid rgb(230, 122, 0);
+}

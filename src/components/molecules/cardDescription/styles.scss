@@ -1,0 +1,36 @@
+.descWrapper {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    .seller-tag {
+
+    }
+    .desc {
+        display: flex;
+        .content {
+            .heading {
+
+            }
+            .date {
+                margin-left: 15px;
+            }
+           
+            .rate-content {
+                display: flex;
+                justify-content: space-between;
+                .price-store {
+                .storeName {
+                    margin-top:20px;
+                }
+                .price {
+    
+                }
+            }
+            .rate {
+                margin-top: 20px;
+
+            }
+            }
+        }
+    }
+
+}

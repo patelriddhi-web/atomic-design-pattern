@@ -1,0 +1,15 @@
+.pagination-container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    width: 60%;
+    margin:auto;
+
+    .btn {
+        border: none;
+    }
+    .text {
+        margin-left: 10px;
+    }
+}

@@ -1,30 +1,28 @@
 /* @flow */
 import * as React from 'react'
 
-import Card from '_components/atoms/card'
 import Button from '_components/atoms/button'
-import Title from '_components/atoms/title'
+import TextBox from '_components/atoms/textbox'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import '../index.scss';
 
-type Props = {
-  children?: React.Node,
-  className?: string,
-  title: string,
-  button?: string,
+
+
+const SearchBar = ()=> {
+  return (
+    <div className='searchbarWrapper'>
+
+    <Button type='button' disabled='false' className='left-btn'>Kindle Store</Button>
+    
+    <TextBox type='text' className='text-box'></TextBox>
+   
+    <Button type='button' disabled='false' height='40px' width='45px' className='search-btn'><FontAwesomeIcon icon={faSearch} /></Button>
+    </div>
+  )
 }
+  
 
-const Block = (props: Props): React.Element<*> => (
-  <Card className={props.className}>
-    <Title>{props.title}</Title>
-    {props.children}
-    {props.button !== '' && <Button>{props.button}</Button>}
-  </Card>
-)
 
-Block.defaultProps = {
-  className: '',
-  children: '',
-  title: '',
-  button: '',
-}
 
-export default Block
+export default SearchBar

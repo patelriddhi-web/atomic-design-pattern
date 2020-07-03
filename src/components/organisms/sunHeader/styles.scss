@@ -1,0 +1,77 @@
+.sub-header {
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    flex-wrap: wrap;
+
+    .btn-wrapper {
+        background-color: #232f3e;
+        border: none;
+
+        .btn-content {
+            .location-icon {
+                display: inline-block;
+                vertical-align: middle;
+                color: white;
+                margin-right: 4px;
+                ;
+                font-size: 25px;
+
+            }
+
+            .btn-text {
+
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .text-btn-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 85px;
+
+        .text {
+            background-color: #232f3e;
+            color: #bdbebf;
+            border: none;
+            margin-right: 10px;
+        }
+        .text:hover {
+            outline: 1px solid white;
+            outline-offset: 7px;
+        }
+
+    }
+    .image {
+        margin-left: 30px;
+    }
+    .free-btn {
+        margin-left: 30px;
+        .button {
+            background-color: #232f3e ;
+            border: none;
+            border-left: 1px solid white;
+            padding-left: 12px;
+        }
+    }
+
+    .btn-header-wrapper {
+        width: 100%;
+        background-color: #fafafa;
+        padding:10px 10px 0 10px;
+        .btn {
+            background-color: #fafafa;
+            border: none;
+            margin-right: 6px;
+            padding-bottom: 10px;
+        }
+        .btn:hover {
+            border-bottom: 2px solid #e47911;
+            color: #e47911;
+        }
+
+    }
+}

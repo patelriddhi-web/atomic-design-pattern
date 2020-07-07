@@ -6,24 +6,39 @@
         padding: 1px;
         
     }
-    .links-container {
+    .footer-content{
         background-color: #232f3e;
-        display: flex;
-        justify-content: space-evenly;
-        padding-bottom: 40px;
-
-        .section {
-            .link:hover {
-                border-bottom: 1px solid white;
-            }
-            ul {
-                list-style-type: none;
-                padding:0;
-                li {
-                    margin:0 0 5px 0;
+        .links-container {
+            
+            display: flex;
+            justify-content: space-evenly;
+    
+            .section {
+                .link:hover {
+                    border-bottom: 1px solid white;
                 }
+                ul {
+                    list-style-type: none;
+                    padding:0;
+                    li {
+                        margin:0 0 5px 0;
+                    }
+                }
+    
             }
-
+        }
+        .nav-footer-line {
+            width: 100%;
+            border-top: 1px solid #3a4553;
+            margin-top: 40px;
+            
+        }
+        .footer-logo {
+            display: flex;
+            padding: 50px;
+            justify-content: center;
         }
     }
-}
+    }
+   
+    

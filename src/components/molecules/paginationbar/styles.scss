@@ -12,4 +12,36 @@
     .text {
         margin-left: 10px;
     }
+    .pagination {
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            margin-right: 20px;
+            font-size: 16px;
+            color:rgb(0, 102, 192)            
+    
+        }
+        li.previous {
+            
+        }
+        li.active {
+            font-weight: 700;
+            color: black;
+        }
+        li.disabled {
+            font-size: 16px;
+            color: #6b6d6b
+        }
+        li.next {
+            font-weight: 700;
+            color: rgb(0, 102, 192) 
+        }
+
+    }
+    
+    
 }

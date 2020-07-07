@@ -4,6 +4,10 @@
         display: flex;
         .left-nav-wrapper {
             width:20%;
+            padding:20px;
+            border-right: 1px solid #ddd;
+            height: max-content;
+            margin-top:15px;
 
         }
         .body-content { 
@@ -38,7 +42,6 @@
             .pagination {
                 margin: auto;
                 background-color: #eee;
-                margin-bottom: 30px;
             }
             .content-para {
                 .para {

@@ -9,6 +9,7 @@ import CardDesc from '../molecules/cardDescription/index'
 import Pagination from '../molecules/paginationbar/index'
 import MoreItems from '../organisms/moreItems/index'
 import Footer from '../organisms/footer/index'
+import SideBar from '../organisms/sidebar'
 
 const HomePage = () => {
   return (
@@ -16,7 +17,9 @@ const HomePage = () => {
       <Header />
       <SubHeader />
       <div className="main-content">
-        <div className="left-nav-wrapper"></div>
+        <div className="left-nav-wrapper">
+          <SideBar />
+        </div>
         <div className="body-content">
           <div className="store">
             <Typography
@@ -115,7 +118,7 @@ const HomePage = () => {
             />
           </div>
           <div className="pagination">
-            <Pagination />
+            <Pagination totalPage="10" />
           </div>
           <div className="content-para">
             <Typography
